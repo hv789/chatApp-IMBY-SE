@@ -22,8 +22,8 @@ export default function ThemeProvider({
   children: React.ReactNode;
 }) {
   const [theme, setTheme] = useState<Theme>(() => {
-    if (isServer()) return "light";
-    return (localStorage.getItem("theme") as Theme) || "light";
+    if (isServer()) return "dark";
+    return (localStorage.getItem("theme") as Theme) || "dark";
   });
 
   useEffect(() => {
