@@ -222,7 +222,7 @@ function UserResult({
         checked={selected}
         onChange={(e) => onChangeSelected(e.target.checked)}
         onClick={(e) => e.stopPropagation()}
-        className="mx-1 scale-125"
+        className="mx-1 scale-125 bg-white dark:bg-gray-800"
       />
       <span>
         <Avatar image={user.image} name={user.name || user.id} size={40} />
