@@ -6,10 +6,11 @@ import {
 } from "@/notifications/pushService";
 import { UserButton } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
-import { BellOff, BellRing, Moon, Sun, Users } from "lucide-react";
+import { BellOff, BellRing, Moon, Sun, Users, BrainCog } from "lucide-react";
 import { useEffect, useState } from "react";
 import { LoadingIndicator } from "stream-chat-react";
 import { useTheme } from "../ThemeProvider";
+import Link from "next/link";
 
 interface MenuBarProps {
   onUserMenuClick: () => void;
@@ -30,6 +31,13 @@ export default function MenuBar({ onUserMenuClick }: MenuBarProps) {
           <Users className="cursor-pointer" onClick={onUserMenuClick} />
         </span>
         <ThemeToggleButton />
+        <Link href="https://echobot.zapier.app/echochat" target="_blank">
+          <BrainCog
+            className="cursor-pointer"
+            color="#128797"
+            strokeWidth={2}
+          />
+        </Link>
       </div>
     </div>
   );
