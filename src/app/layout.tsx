@@ -7,7 +7,7 @@ import ThemeProvider from "./ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Flow Chat",
+  title: "EchoChat",
   description: "A live chat app built with Stream and Clerk",
 };
 

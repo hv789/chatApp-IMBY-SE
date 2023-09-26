@@ -30,7 +30,7 @@ sw.addEventListener("push", (event) => {
       body,
       icon,
       image,
-      badge: "/flowchat_logo.png",
+      badge: "/echochat_logo.png",
       actions: [{ title: "Open chat", action: "open_chat" }],
       tag: channelId,
       renotify: true,

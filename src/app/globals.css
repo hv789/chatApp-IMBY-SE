@@ -12,7 +12,7 @@
 }
 
 .dark .str-chat {
-  --str-chat__disabled-color: theme(colors.gray.600);
+  --str-chat__disabled-color: theme(colors.blue.500);
 }
 
 .str-chat * {
