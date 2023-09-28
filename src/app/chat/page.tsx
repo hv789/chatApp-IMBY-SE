@@ -92,11 +92,12 @@ export default function ChatPage({
             theme === "dark" ? "str-chat__theme-dark" : "str-chat__theme-light"
           }
         >
-          <div className="flex justify-center border-b border-b-[#DBDDE1] p-3 md:hidden">
+          
+          <div className="flex justify-space-between border-b border-b-[#DBDDE1] p-3 md:hidden">
             <button onClick={() => setChatSidebarOpen(!chatSidebarOpen)}>
               {!chatSidebarOpen ? (
-                <span className="flex items-center gap-1">
-                  <Menu /> Menu
+                <span className="flex items-center gap-4">
+                  <Menu /> EchoChat
                 </span>
               ) : (
                 <X />
