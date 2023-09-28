@@ -28,7 +28,7 @@ export default function MenuBar({ onUserMenuClick }: MenuBarProps) {
       <div className="flex gap-6">
         <PushSubscriptionToggleButton />
         <span title="Show users">
-          <Users className="cursor-pointer" onClick={onUserMenuClick} />
+          <Users className="cursor-pointer hover:text-sky-400" onClick={onUserMenuClick} />
         </span>
         <ThemeToggleButton />
         <Link href="https://echobot.zapier.app/echochat" target="_blank">
@@ -122,14 +122,14 @@ function PushSubscriptionToggleButton() {
         <span title="Disable push notifications on this device">
           <BellOff
             onClick={() => setPushNotificationsEnabled(false)}
-            className={`cursor-pointer ${loading ? "opacity-10" : ""}`}
+            className={`hover:text-sky-400 cursor-pointer ${loading ? "opacity-10" : ""}`}
           />
         </span>
       ) : (
         <span title="Enable push notifications on this device">
           <BellRing
             onClick={() => setPushNotificationsEnabled(true)}
-            className={`cursor-pointer ${loading ? "opacity-10" : ""}`}
+            className={`hover:text-sky-400 cursor-pointer ${loading ? "opacity-10" : ""}`}
           />
         </span>
       )}

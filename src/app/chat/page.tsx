@@ -96,7 +96,7 @@ export default function ChatPage({
           <div className="flex justify-space-between border-b border-b-[#DBDDE1] p-3 md:hidden">
             <button onClick={() => setChatSidebarOpen(!chatSidebarOpen)}>
               {!chatSidebarOpen ? (
-                <span className="flex items-center gap-4">
+                <span className="flex items-center gap-4 text-sky-400/100 font-bold">
                   <Menu /> EchoChat
                 </span>
               ) : (

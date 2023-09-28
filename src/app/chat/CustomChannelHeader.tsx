@@ -16,17 +16,17 @@ export default function CustomChannelHeader(props: ChannelHeaderProps) {
   } = useChannelStateContext();
 
   const VideoConference = () => {
-    window.open(`https://echomeet.vercel.app/`, '_blank')
+    window.open(`https://echomeet.vercel.app/`, "_blank");
   };
 
   return (
     <div className="flex items-center justify-between gap-3 bg-white dark:bg-[#17191c]">
       <ChannelHeader {...props} />
       {user && channelId && (
-        <>
-        <Video className="cursor-pointer" onClick={() => VideoConference()}/>
-        <ChannelNotificationToggleButton user={user} channelId={channelId} />
-        </>
+        <div className="flex flex-row space-x-4 me-6">
+          <Video className="cursor-pointer hover:text-sky-400" onClick={() => VideoConference()} />
+          <ChannelNotificationToggleButton user={user} channelId={channelId} />
+        </div>
       )}
     </div>
   );
@@ -74,7 +74,7 @@ function ChannelNotificationToggleButton({
   }
 
   return (
-    <div className="me-6">
+    <div className="hover:text-sky-400">
       {!channelMuted ? (
         <span title="Mute channel notifications">
           <BellOff
