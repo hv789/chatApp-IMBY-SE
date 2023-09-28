@@ -26,6 +26,11 @@
   Welcome to EchoChat, where meaningful conversations come to life!
 </p>
 
+---
+
+## 🎥 Video
+[![Watch the video](https://img.youtube.com/vi/n9FDwmbuPME/maxresdefault.jpg)](https://youtu.be/n9FDwmbuPME)https://youtu.be/n9FDwmbuPME
+
 ## 📝 Table of Contents
 - [About](#about)
 - [System Design Document](#system_design_document)
