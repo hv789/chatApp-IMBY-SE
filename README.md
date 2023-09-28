@@ -28,6 +28,7 @@
 
 ## 📝 Table of Contents
 - [About](#about)
+- [System Design Document](#system_design_document)
 - [Getting Started](#getting_started)
 - [Dependencies](#dependencies)
 - [Deployment](#deployment)
@@ -39,6 +40,9 @@
 
 ## 🧐 About <a name = "about"></a>
 EchoChat is a versatile chatting platform designed to make your online interactions both engaging and effortless. Whether you're sending text messages, sharing videos, or participating in live video chats, EchoChat ensures you stay connected with your friends, family, and colleagues in a seamless and creative way.
+
+## 📄 System Design Document <a name = "system_design_document"></a>
+Check out the System Design Document present in the repo...☝️
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
