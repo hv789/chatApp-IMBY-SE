@@ -29,6 +29,7 @@
 ## 📝 Table of Contents
 - [About](#about)
 - [Getting Started](#getting_started)
+- [Dependencies](#dependencies)
 - [Deployment](#deployment)
 - [Usage](#usage)
 - [Built Using](#built_using)
@@ -95,6 +96,48 @@ npx web-push generate-vapid-keys
 - Paste the generated public and private keys into the **.env.local** file.
 
 And you are done...👍
+
+## ⚓ Dependencies <a name="dependencies"></a>
+
+- Project Basics
+  - [@t3-oss/env-nextjs](https://www.npmjs.com/package/@t3-oss/env-nextjs)
+  - [@types/node](https://www.npmjs.com/package/@types/node) -> Node with TS
+  - [@types/react](https://www.npmjs.com/package/@types/react) -> React with TS
+  - [@types/react-dom](https://www.npmjs.com/package/@types/react-dom) -> Reac DOM with TS
+  - [@types/web-push](https://www.npmjs.com/package/@types/web-push) -> Web-Push with TS
+  - [autoprefixer](https://www.npmjs.com/package/autoprefixer)
+  - [eslint](https://www.npmjs.com/package/eslint) -> ESLint
+  - [eslint-config-next](https://www.npmjs.com/package/eslint-config-next) -> ESLint with Next.js
+  - [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier) -> Prettier config
+  - [lucide-react](https://www.npmjs.com/package/lucide-react) -> React Icons
+  - [next](https://www.npmjs.com/package/next) -> Next.js
+  - [postcss](https://www.npmjs.com/package/postcss) -> Styling with JS plugins
+  - [prettier](https://www.npmjs.com/package/prettier) -> Formatting
+  - [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss) -> Prettier with TS
+  - [react](https://www.npmjs.com/package/react) -> React integration
+  - [react-dom](https://www.npmjs.com/package/react-dom) -> React for DOM
+  - [tailwind-merge](https://www.npmjs.com/package/tailwind-merge) -> Merge style with classes
+  - [tailwindcss](https://www.npmjs.com/package/tailwindcss) -> Tailwind styling
+  - [typescript](https://www.npmjs.com/package/typescript) -> TS integration
+  - [svix](https://www.npmjs.com/package/svix) -> Web-Hook signatures
+  - [web-push](https://www.npmjs.com/package/web-push) -> Web-Push functions for Notifs
+  - [zod](https://www.npmjs.com/package/zod) -> Handling env for TS
+    
+  ***Thses dependencies are needed for basic project structure for using next.js, typescript, DOM elements, Web-Push functions, styling, formatting, etc...***
+
+- Clerk Auth
+  - [@clerk/nextjs](https://www.npmjs.com/package/@clerk/nextjs)
+  - [@clerk/themes](https://www.npmjs.com/package/@clerk/themes)
+    
+  ***These dependencies allow the integration of Clerk Auth into the project along with providing the themes necessary***
+  [Clerk Docs](https://clerk.com/docs)
+  
+- GetStream
+  - [stream-chat](https://www.npmjs.com/package/stream-chat) -> SDK for chat applications
+  - [stream-chat-react](https://www.npmjs.com/package/stream-chat-react) -> React components for Stream Chat
+
+  ***These dependencies allow the integration of GetStream Chat SDK into the project along with providing the necessary UI Kits and functionalies***
+  [GetStream Chat Docs](https://getstream.io/chat/docs/)
 
 ## 🎈 Usage <a name="usage"></a>
 - The whole chat application is present in this directory.
