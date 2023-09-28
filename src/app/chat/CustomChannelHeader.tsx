@@ -1,6 +1,6 @@
 import { useUser } from "@clerk/nextjs";
 import { UserResource } from "@clerk/types";
-import { Bell, BellOff } from "lucide-react";
+import { Bell, BellOff, Video } from "lucide-react";
 import {
   ChannelHeader,
   ChannelHeaderProps,
@@ -15,11 +15,18 @@ export default function CustomChannelHeader(props: ChannelHeaderProps) {
     channel: { id: channelId },
   } = useChannelStateContext();
 
+  const VideoConference = () => {
+    window.open(`https://echomeet.vercel.app/`, '_blank')
+  };
+
   return (
     <div className="flex items-center justify-between gap-3 bg-white dark:bg-[#17191c]">
       <ChannelHeader {...props} />
       {user && channelId && (
+        <>
+        <Video className="cursor-pointer" onClick={() => VideoConference()}/>
         <ChannelNotificationToggleButton user={user} channelId={channelId} />
+        </>
       )}
     </div>
   );
