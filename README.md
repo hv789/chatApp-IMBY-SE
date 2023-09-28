@@ -43,6 +43,7 @@ EchoChat is a versatile chatting platform designed to make your online interacti
 
 ## 📄 System Design Document <a name = "system_design_document"></a>
 Check out the System Design Document present in the repo...☝️
+Or check out [here](https://docs.google.com/document/d/10dEFTbALtCkre_24ai60bi_95VST1Sta9dSchb7Bl5w/edit?usp=sharing)
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
