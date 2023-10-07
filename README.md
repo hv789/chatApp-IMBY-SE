@@ -26,12 +26,6 @@
   Welcome to EchoChat, where meaningful conversations come to life!
 </p>
 
-<p align="center">
-    <br> 
-  🔺🔺🔺🔺For some reason there is a token authorisation error for <b>EchoMeet</b> on Windows browser.🔺🔺🔺🔺
-  <br>
-  🔺🔺But works perfectly on linux/mobile phones.🔺🔺
-</p>
 
 ---
 
